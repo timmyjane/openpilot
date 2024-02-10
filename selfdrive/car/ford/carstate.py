@@ -207,4 +207,4 @@ class CarState(CarStateBase):
 
     return CANParser(DBC[CP.carFingerprint]["pt"], messages, CanBus(CP).camera)
     
-    export FINGERPRINT="FORD MAVERICK 1ST GEN"
+    exportFINGERPRINT="FORD MAVERICK 1ST GEN"
